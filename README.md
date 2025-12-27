@@ -4,6 +4,8 @@
   This is a simple widget that can be embedded in platforms like Notion. Easy to set up and customize! ✨
   
   To configure the widget for your D-Day countdown, you'll need to modify the code and then embed it. If you'd like to use it for someone else, simply **duplicate the code and make your edits**. ✍️
+
+  All you have to do is find **🔧SETTINGS🔧** and edit it! 💻
   
 
 🛠️ Date Setting:
