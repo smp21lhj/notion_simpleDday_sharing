@@ -13,6 +13,6 @@
   Replace "2026-01-01" with the date you want in the format "YYYY-MM-DD". 🗓️
     
 🛠️ Color Settings:
-  TEXT_COLOR: Choose your desired color for the text by replacing the hex code `#000000` with the hex code of your preferred color. 🎨
+  TEXT_COLOR: Choose your desired color for the text by replacing the hex code "#000000" with the hex code of your preferred color. 🎨
   
-  BG_COLOR: Set the background color by replacing `#ffffff` with the hex code of your choice. 🌈
+  BG_COLOR: Set the background color by replacing "#ffffff" with the hex code of your choice. 🌈
