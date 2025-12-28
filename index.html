@@ -10,15 +10,19 @@
 <style>
   body {
     margin: 0;
-    padding: 12px;
+    padding: 0;
     font-family: "Pretendard", -apple-system, BlinkMacSystemFont, sans-serif;
     background: var(--bg-color);
     color: var(--text-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
 
   .wrap {
     max-width: 320px;
-    margin: auto;
     text-align: center;
   }
 
@@ -48,11 +52,12 @@
 const TODAY_DATE = new Date().toISOString().slice(0, 10);  // Date of Today
 
 //*************🔧SETTINGS🔧*************
-// 🔧 Date Setting 날짜 설정
-const DDAY_DATE  = "2026-01-01"; //Date of D-day(D-0) 디데이(D-0) 날짜
-// 🔧 Color Setting 색상 설정
-const TEXT_COLOR = "#000000"; //Text color (HEX code) 텍스트 색상
-const BG_COLOR   = "#ffffff"; //Background color (HEX code) 배경 색상
+// 🔧 Date Setting
+const DDAY_DATE  = "2026-01-01"; // D-day (D-0)
+
+// 🔧 Color Setting
+const TEXT_COLOR = "#000000"; // Text color
+const BG_COLOR   = "#ffffff"; // Background color
 //**********************************
 
 document.documentElement.style.setProperty("--text-color", TEXT_COLOR);
